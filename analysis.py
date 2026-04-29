@@ -1,9 +1,9 @@
-import sys
-import os
 import json
+import os
+import sys
 
-def analyse(data):   
-    unused_var = 42
+
+def analyse(data):
     result = []
     for item in data:
         result.append(item)
